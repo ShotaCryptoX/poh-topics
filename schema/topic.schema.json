@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "PoH Topic",
+    "type": "object",
+    "required": [
+        "roundId",
+        "topic",
+        "generatedAt"
+    ],
+    "properties": {
+        "roundId": {
+            "type": "integer",
+            "description": "ラウンドID（YYYYMMDD形式の整数）",
+            "minimum": 20260101
+        },
+        "topic": {
+            "type": "string",
+            "description": "お題テキスト（日本語）",
+            "minLength": 1
+        },
+        "topicEn": {
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "お題の英語翻訳（任意）"
+        },
+        "generatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "description": "お題生成日時（ISO8601）"
+        }
+    },
+    "additionalProperties": false
+}
