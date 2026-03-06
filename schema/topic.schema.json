@@ -10,12 +10,12 @@
     "properties": {
         "roundId": {
             "type": "integer",
-            "description": "ラウンドID（YYYYMMDD形式の整数）",
+            "description": "Round ID (integer in YYYYMMDD format)",
             "minimum": 20260101
         },
         "topic": {
             "type": "string",
-            "description": "お題テキスト（日本語）",
+            "description": "Topic text",
             "minLength": 1
         },
         "topicEn": {
@@ -23,12 +23,12 @@
                 "string",
                 "null"
             ],
-            "description": "お題の英語翻訳（任意）"
+            "description": "English translation of the topic (optional)"
         },
         "generatedAt": {
             "type": "string",
             "format": "date-time",
-            "description": "お題生成日時（ISO8601）"
+            "description": "Topic generation date and time (ISO8601)"
         }
     },
     "additionalProperties": false

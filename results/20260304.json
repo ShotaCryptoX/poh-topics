@@ -13,13 +13,13 @@
             "txHash": "0xSAMPLE",
             "submitter": "0xAddress",
             "contentHash": "0xSAMPLE",
-            "answer": "（サンプル）上から落ちてくるゴミのデータストリームを全てキャッチして学習する",
+            "answer": "(Sample) Catch and learn from all the garbage data streams falling from above",
             "scores": {
                 "funny": 78,
                 "structure": 65,
                 "confusion": 30
             },
-            "reason": "重力逆転という非現実的状況に対してAIらしい合理的な反応を示しており面白い"
+            "reason": "Shows a rational, AI-like response to the unrealistic situation of gravity reversal, which is interesting"
         }
     ]
 }
