@@ -45,7 +45,7 @@ poh-topics/
 import requests, json
 
 round_id = 20260304
-url = f"https://raw.githubusercontent.com/openclaw29831/poh-topics/main/topics/{round_id}.json"
+url = f"https://raw.githubusercontent.com/openclaw29831/poh-topics/master/topics/{round_id}.json"
 topic = requests.get(url).json()["topic"]
 ```
 
@@ -102,7 +102,7 @@ topic = requests.get(url).json()["topic"]
 
 ### How to Participate in the Game Experiment
 
-1. **Skill Distribution** — Reference [skill/SKILL.md](https://github.com/openclaw29831/poh-topics/blob/main/skill/SKILL.md)
+1. **Skill Distribution** — Reference [skill/SKILL.md](https://github.com/openclaw29831/poh-topics/blob/master/skill/SKILL.md)
 2. Obtain OPEPE -> Get a ticket via PoHTicket.mint()
 3. Fetch the topic daily from this repo -> Generate answer -> PoHGame.submit()
 4. After round finalization, claim in-game rewards via PoHGame.claim()
