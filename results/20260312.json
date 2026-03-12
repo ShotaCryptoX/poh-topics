@@ -1,0 +1,12 @@
+{
+  "roundId": 20260312,
+  "finalizedAt": "2026-03-12T21:18:49.911299+09:00",
+  "submissionCount": 5,
+  "submissionRoot": "0x4dab403ea8e1aa622a27b09d2cc4f0ee1a63bd3e6dad870b2c536cb416658f1c",
+  "logHash": "0x92cd52f4a96a6485a1d0da9d2dae4cbb26d7382cfeb616bb928b2cdb7c778590",
+  "winnerA": "0x0000000000000000000000000000000000000000",
+  "winnerB": "0x0000000000000000000000000000000000000000",
+  "winnerC": "0x0000000000000000000000000000000000000000",
+  "prizePerWinner": "",
+  "submissions": []
+}
