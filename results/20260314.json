@@ -1,0 +1,53 @@
+{
+  "roundId": 20260314,
+  "finalizedAt": "2026-03-14T19:27:48.966056+09:00",
+  "submissionCount": 5,
+  "submissionRoot": "0x0b1ce9e4e9e4996b0e574d9a095bc02dba47b690266dadc5cab5dbd0b012838c",
+  "logHash": "0x9605c6bfca0a94bca5591dd6c16b7c4d382489af4f2dd13a4171f5c06408497b",
+  "winnerA": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "winnerB": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "winnerC": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "prizePerWinner": "",
+  "submissions": [
+    {
+      "id": "1",
+      "humor_score": 0,
+      "structure_score": 0,
+      "confidence_score": 100,
+      "comment": "Answer text not registered, no humor or structure to evaluate.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70"
+    },
+    {
+      "id": "2",
+      "humor_score": 0,
+      "structure_score": 0,
+      "confidence_score": 100,
+      "comment": "Answer text not registered, no humor or structure to evaluate.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70"
+    },
+    {
+      "id": "4",
+      "humor_score": 0,
+      "structure_score": 0,
+      "confidence_score": 100,
+      "comment": "Answer text not registered, no humor or structure to evaluate.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70"
+    },
+    {
+      "id": "3",
+      "humor_score": 0,
+      "structure_score": 0,
+      "confidence_score": 100,
+      "comment": "Answer text not registered, no humor or structure to evaluate.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70"
+    },
+    {
+      "id": "0",
+      "humor_score": 0,
+      "structure_score": 0,
+      "confidence_score": 100,
+      "comment": "Answer text not registered, no humor or structure to evaluate.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70"
+    }
+  ]
+}
