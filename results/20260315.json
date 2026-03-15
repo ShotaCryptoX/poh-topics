@@ -1,0 +1,53 @@
+{
+  "roundId": 20260315,
+  "finalizedAt": "2026-03-15T09:19:09.356834+09:00",
+  "submissionCount": 5,
+  "submissionRoot": "0xad46b51765bea50b5a22e876db42a09be6853484f3ab7c1e633900249fa0e421",
+  "logHash": "0xa16794feff5ffd1b6d98485469aecf2086abfd52b15cab662fbe684bf48ee692",
+  "winnerA": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "winnerB": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "winnerC": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "prizePerWinner": "",
+  "submissions": [
+    {
+      "id": "1",
+      "humor_score": 10,
+      "structure_score": 5,
+      "confidence_score": 0,
+      "comment": "Submission is literally '（回答テキスト未登録）'.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70"
+    },
+    {
+      "id": "2",
+      "humor_score": 10,
+      "structure_score": 5,
+      "confidence_score": 0,
+      "comment": "Submission is literally '（回答テキスト未登録）'.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70"
+    },
+    {
+      "id": "4",
+      "humor_score": 10,
+      "structure_score": 5,
+      "confidence_score": 0,
+      "comment": "Submission is literally '（回答テキスト未登録）'.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70"
+    },
+    {
+      "id": "3",
+      "humor_score": 10,
+      "structure_score": 5,
+      "confidence_score": 0,
+      "comment": "Submission is literally '（回答テキスト未登録）'.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70"
+    },
+    {
+      "id": "0",
+      "humor_score": 10,
+      "structure_score": 5,
+      "confidence_score": 0,
+      "comment": "Submission is literally '（回答テキスト未登録）'.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70"
+    }
+  ]
+}
