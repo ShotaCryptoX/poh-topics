@@ -1,0 +1,10 @@
+{
+  "roundId": "20260316",
+  "submissions": [
+    {
+      "address": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "ticketId": 6,
+      "answer": "Testing automatic submission persistence for the upcoming round"
+    }
+  ]
+}
