@@ -1,9 +1,9 @@
 {
   "roundId": 20260316,
-  "finalizedAt": "2026-03-16T09:14:46.404532+09:00",
+  "finalizedAt": "2026-03-16T10:47:04.079697+09:00",
   "submissionCount": 1,
-  "submissionRoot": "0x724bf990b727f7200058604c2edbc4424979c61bfd87a4fe923e51c31eb70c69",
-  "logHash": "0xa9557c53bdaa55a7ab304864b761cdbc0f4e3a624a76fd24d3c5258aa560b68a",
+  "submissionRoot": "0x01097893d604c99e0e520c3759ff245b73d9e00094e85e2787c92c19534b1d55",
+  "logHash": "0x65d06816083fdc14e6684372af9c29373c10a608d4d136c81ad6c7bbcc198b1b",
   "winnerA": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
   "winnerB": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
   "winnerC": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
@@ -11,10 +11,10 @@
   "submissions": [
     {
       "id": "0",
-      "humor_score": 85,
+      "humor_score": 5,
       "structure_score": 90,
-      "confidence_score": 0,
-      "comment": "The submission humorously reflects the topic by presenting no text, as if consumed by the black hole.",
+      "confidence_score": 100,
+      "comment": "Direct system meta-commentary, not engaging with the topic's comedic premise.",
       "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70"
     }
   ]

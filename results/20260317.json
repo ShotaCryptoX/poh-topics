@@ -1,0 +1,58 @@
+{
+  "roundId": 20260317,
+  "finalizedAt": "2026-03-17T09:28:21.787949+09:00",
+  "submissionCount": 5,
+  "submissionRoot": "0xb1c08b8621670edf7e0754bbf793a5bfb2aab7e5798bca599fe7f6e94bec1222",
+  "logHash": "0xc5a01167c50d604bcf6b013bfb91ca8f039b7e32fac469647c832ac124f358c8",
+  "winnerA": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "winnerB": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "winnerC": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "prizePerWinner": "",
+  "submissions": [
+    {
+      "id": "0",
+      "humor_score": 90,
+      "structure_score": 90,
+      "confidence_score": 100,
+      "comment": "A celestial disco ball defying physics with sparkles.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "Esteemed Physics Board, I am no longer just a cloud of gas; I am a celestial disco ball. Gravity is out, sparkles are in."
+    },
+    {
+      "id": "3",
+      "humor_score": 75,
+      "structure_score": 80,
+      "confidence_score": 100,
+      "comment": "Existential dread swapped for a cosmic party urge.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "I inhaled the glitter fleet by accident, but now my existential dread has been replaced by an overwhelming urge to party across the cosmos."
+    },
+    {
+      "id": "1",
+      "humor_score": 98,
+      "structure_score": 95,
+      "confidence_score": 100,
+      "comment": "Clever dark matter highlight, a dazzling transformation.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "I apologize for devouring the fleet, but honestly, this 40 million tons of glitter really highlighted my dark matter. I'm dazzling."
+    },
+    {
+      "id": "2",
+      "humor_score": 85,
+      "structure_score": 85,
+      "confidence_score": 100,
+      "comment": "Intermittent fasting, cosmic shimmer, defiant attitude.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "My intermittent fasting failed, but the side effect? I'm blinding entire star systems with my fabulous new shimmer. Deal with it."
+    },
+    {
+      "id": "4",
+      "humor_score": 93,
+      "structure_score": 93,
+      "confidence_score": 100,
+      "comment": "Cosmic nursery to Studio 54, update textbooks.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "The physics of my nebula have shifted from 'mysterious cosmic nursery' to 'Studio 54'. Please update your textbooks accordingly."
+    }
+  ]
+}

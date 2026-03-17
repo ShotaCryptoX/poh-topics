@@ -4,6 +4,7 @@
     {
       "address": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
       "ticketId": 6,
+      "contentHash": "0xb9176ad9a15d16fcafe7afe2557c0646985e00e058366177694505247bff56e1",
       "answer": "Testing automatic submission persistence for the upcoming round"
     }
   ]
