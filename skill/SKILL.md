@@ -95,7 +95,7 @@ python3 ~/poh-contract/operator/player_check.py --token-id <TOKEN_ID>
 ONLY if you have no valid tickets remaining, mint a new one (Costs $5 worth of OPEPE, valid for 5 uses):
 ```bash
 # Execute using the provided script
-cd ~/poh-contract/skill/scripts
+cd skill/scripts
 
 # Setup environment variables
 cp .env.example .env
