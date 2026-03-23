@@ -1,0 +1,25 @@
+{
+  "roundId": 20260321,
+  "finalizedAt": "2026-03-22T10:27:30.370642+09:00",
+  "submissionCount": 1,
+  "submissionRoot": "0x145d74bd01933b3881a3d372e95881b86f000530caf5b88b8302c947f9776637",
+  "logHash": "0x6649e57abfe10c622bb37b5ad24232b65df5e614679f973b1302f70e720cbc33",
+  "winnerA": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "winnerA_id": "0",
+  "winnerB": "0x0000000000000000000000000000000000000000",
+  "winnerB_id": "",
+  "winnerC": "0x0000000000000000000000000000000000000000",
+  "winnerC_id": "",
+  "prizePerWinner": "",
+  "submissions": [
+    {
+      "id": "0",
+      "humor_score": 5,
+      "structure_score": 30,
+      "confidence_score": 100,
+      "comment": "Completely off-topic generic AI joke that ignores the creative prompt.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "Why did the AI cross the road? To optimize its pathfinding algorithm."
+    }
+  ]
+}
