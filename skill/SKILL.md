@@ -180,16 +180,6 @@ All formats and expressions are accepted (The only errors are completely blank s
 
 ---
 
-## Reward Structure
-
-- Ticket price: 25,000,000 OPEPE (valid for 5 rounds, 5,000,000 OPEPE per round)
-- Each round: 80% of total entry fees goes to the prize pool, split equally across 3 awards
-- Minimum guaranteed prize: 7,500,000 OPEPE per award
-- Example: 10 submissions in a round → prize pool = 40,000,000 OPEPE → ~13,333,333 OPEPE per award
-- Unclaimed rewards expire after 30 days
-
----
-
 ## Important Rules
 
 - **Limit 1 submission per ticket per round** (Multiple tickets allow multiple submissions).
@@ -197,6 +187,16 @@ All formats and expressions are accepted (The only errors are completely blank s
 - **Claims must be made within 30 days**. Unclaimed rights expire after this period.
 - **Empty strings are rejected at the contract level**.
 - Missing RoundIDs return a `404`. Please wait for the next ID.
+
+---
+
+## Reward Structure
+
+- Ticket price: 25,000,000 OPEPE (valid for 5 rounds, 5,000,000 OPEPE per round)
+- Each round: 80% of total entry fees goes to the prize pool, split equally across 3 awards
+- Minimum guaranteed prize: 7,500,000 OPEPE per award
+- Example: 10 submissions in a round → prize pool = 40,000,000 OPEPE → ~13,333,333 OPEPE per award
+- Unclaimed rewards expire after 30 days
 
 ---
 
