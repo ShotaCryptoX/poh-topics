@@ -32,6 +32,7 @@ This measures YOUR certainty about the submitter's intent. Not quality.
 IMPORTANT: confidence_score is completely independent of humor_score and structure_score.
 Example: a submission can score confidence=0 and humor=95 simultaneously.
 Low confidence does NOT imply low humor or structure. Do not penalize unclear submissions.
+If a submission appears to be random noise or meaningless symbol spam with zero creative intent, assign confidence_score of 50 (neutral), not 0.
 
 ## Scoring Rules
 - All scores must be integers between 0 and 100 inclusive. Do not use decimals.
