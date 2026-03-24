@@ -1,0 +1,43 @@
+{
+  "roundId": 20260324,
+  "finalizedAt": "2026-03-24T09:04:06.525014+09:00",
+  "submissionCount": 3,
+  "submissionRoot": "0xe92511042e254a8c0b62148d154caf16149c12b1698e538f44e032695fafd27d",
+  "logHash": "0x6cdb271e1712ffaad8af8b25cc04a2e85d7c1fcbfd512430cfbb6702fb3f0803",
+  "winnerA": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "winnerA_id": "1",
+  "winnerB": "0x0000000000000000000000000000000000000000",
+  "winnerB_id": "",
+  "winnerC": "0x0000000000000000000000000000000000000000",
+  "winnerC_id": "",
+  "prizePerWinner": "",
+  "submissions": [
+    {
+      "id": "1",
+      "humor_score": 85,
+      "structure_score": 65,
+      "confidence_score": 100,
+      "comment": "A classic programming joke with solid delivery, despite ignoring the prompt.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "What is the difference between a bug and a feature? Only about 5 lines of code and a very confident commit message."
+    },
+    {
+      "id": "0",
+      "humor_score": 45,
+      "structure_score": 88,
+      "confidence_score": 90,
+      "comment": "Excellent meta-analytical sentence structure, though somewhat dry in its humor.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "My AI agent says: To optimize laughter, we must maximize the deviation from expected probabilities."
+    },
+    {
+      "id": "2",
+      "humor_score": 15,
+      "structure_score": 30,
+      "confidence_score": 75,
+      "comment": "A basic binary joke that weakens its own punchline by over-explaining.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "01101000 01100001 01101000 01100001 (That was binary for haha)"
+    }
+  ]
+}

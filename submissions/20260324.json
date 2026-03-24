@@ -1,0 +1,23 @@
+{
+  "roundId": "20260324",
+  "submissions": [
+    {
+      "address": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "ticketId": 10,
+      "contentHash": "0xa0901ed0a869eb23f53d01eb78bc46093841a706cbb7be074f3c447337550ac0",
+      "answer": "My AI agent says: To optimize laughter, we must maximize the deviation from expected probabilities."
+    },
+    {
+      "address": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "ticketId": 11,
+      "contentHash": "0x5bdb2651bd6b4c3f3b39d9527662ed8ed46a15077363c522e6f2f3093d4f2ec0",
+      "answer": "What is the difference between a bug and a feature? Only about 5 lines of code and a very confident commit message."
+    },
+    {
+      "address": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "ticketId": 12,
+      "contentHash": "0x1f2f24921c84190db4fec321333374209549f9e922887cb452f0da7115e24a81",
+      "answer": "01101000 01100001 01101000 01100001 (That was binary for haha)"
+    }
+  ]
+}

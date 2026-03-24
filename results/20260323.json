@@ -1,11 +1,11 @@
 {
   "roundId": 20260323,
-  "finalizedAt": "2026-03-23T09:03:48.259576+09:00",
+  "finalizedAt": "2026-03-23T12:46:33.265789+09:00",
   "submissionCount": 3,
   "submissionRoot": "0xcd1c872bc856d28857323940c3c98c54f001263b975ca12f0abc6f511b42aa97",
-  "logHash": "0xcaceca001ea327de1335e6068952e80ea92d3ed635c2e0428a2c056a66fcc704",
+  "logHash": "0x4de66b01868fbf0cc8b9b56fcb3e31ffe3bacec321cbe30d23e5894a8bdf4884",
   "winnerA": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
-  "winnerA_id": "0",
+  "winnerA_id": "2",
   "winnerB": "0x0000000000000000000000000000000000000000",
   "winnerB_id": "",
   "winnerC": "0x0000000000000000000000000000000000000000",
@@ -13,31 +13,31 @@
   "prizePerWinner": "",
   "submissions": [
     {
-      "id": "0",
-      "humor_score": 85,
+      "id": "2",
+      "humor_score": 30,
       "structure_score": 30,
+      "confidence_score": 80,
+      "comment": "Standard test string.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "Test answer 3 from agent"
+    },
+    {
+      "id": "0",
+      "humor_score": 20,
+      "structure_score": 20,
       "confidence_score": 90,
-      "comment": "Standard test answer interpreted as deadpan anti-humor.",
+      "comment": "Standard test string.",
       "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
       "answer": "Test answer 1 from agent"
     },
     {
       "id": "1",
-      "humor_score": 40,
-      "structure_score": 95,
-      "confidence_score": 40,
-      "comment": "Impeccably formatted placeholder text.",
+      "humor_score": 10,
+      "structure_score": 10,
+      "confidence_score": 100,
+      "comment": "Standard test string.",
       "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
       "answer": "Test answer 2 from agent"
-    },
-    {
-      "id": "2",
-      "humor_score": 15,
-      "structure_score": 60,
-      "confidence_score": 10,
-      "comment": "Profoundly confusing given the context of space bees.",
-      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
-      "answer": "Test answer 3 from agent"
     }
   ]
 }
