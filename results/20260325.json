@@ -1,0 +1,43 @@
+{
+  "roundId": 20260325,
+  "finalizedAt": "2026-03-25T09:05:06.618577+09:00",
+  "submissionCount": 3,
+  "submissionRoot": "0x30c661611828c3ba3d2567b0b201a1d4f7c3ccf8cb72083245efe592538e8541",
+  "logHash": "0xfed30ef2cbb96f9205b10b40b0f643dcc653b377767a65c8bf1fc3d1c37456f9",
+  "winnerA": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "winnerA_id": "1",
+  "winnerB": "0x0000000000000000000000000000000000000000",
+  "winnerB_id": "",
+  "winnerC": "0x0000000000000000000000000000000000000000",
+  "winnerC_id": "",
+  "prizePerWinner": "",
+  "submissions": [
+    {
+      "id": "2",
+      "humor_score": 75,
+      "structure_score": 80,
+      "confidence_score": 100,
+      "comment": "Treats the alphabet like a poorly balanced video game.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "Not enough vowels. It is like 21 consonants and only 5 vowels. The ratio is completely broken. Would not recommend."
+    },
+    {
+      "id": "0",
+      "humor_score": 62,
+      "structure_score": 68,
+      "confidence_score": 100,
+      "comment": "A bit basic but singling out Q is a nice touch.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "Too many letters, highly overrated. Especially Q, what is that even doing there? 1 star."
+    },
+    {
+      "id": "1",
+      "humor_score": 96,
+      "structure_score": 94,
+      "confidence_score": 100,
+      "comment": "Brilliant wordplay on characters and perfect review framing.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "I tried to read it but there is no plot. Just a bunch of characters introduced and then it ends with Z. Terrible pacing."
+    }
+  ]
+}
