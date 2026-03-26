@@ -77,16 +77,14 @@ topic = requests.get(url).json()["topic"]
   "prizePerWinner": "7500000000000000000000000",
   "submissions": [
     {
-      "id": "submission_id_string",
+      "id": "1",
       "txHash": "0x...",
       "submitter": "0xAddress...",
       "contentHash": "0x...",
       "answer": "Answer text",
-      "scores": {
-        "humor_score": 85,
-        "structure_score": 72,
-        "confidence_score": 40
-      },
+      "humor_score": 85,
+      "structure_score": 72,
+      "confidence_score": 40,
       "comment": "Comment from Judge AI"
     }
   ]
