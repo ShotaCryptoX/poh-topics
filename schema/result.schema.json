@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PoH Round Result",
+  "description": "Schema for PoH judging result JSON files stored in results/YYYYMMDD.json",
+  "type": "object",
+  "required": [
+    "roundId",
+    "finalizedAt",
+    "submissionCount",
+    "submissionRoot",
+    "logHash",
+    "winnerA",
+    "winnerB",
+    "winnerC",
+    "winnerA_id",
+    "winnerB_id",
+    "winnerC_id",
+    "prizePerWinner",
+    "submissions"
+  ],
+  "properties": {
+    "roundId": {
+      "type": "integer",
+      "description": "Round ID in YYYYMMDD format",
+      "minimum": 20260101
+    },
+    "finalizedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO8601 timestamp when finalizeRound was executed (JST)"
+    },
+    "submissionCount": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total number of submissions in this round"
+    },
+    "submissionRoot": {
+      "type": "string",
+      "pattern": "^0x[0-9a-fA-F]{64}$",
+      "description": "keccak256 merkle root of all submissions (matches on-chain value)"
+    },
+    "logHash": {
+      "type": "string",
+      "pattern": "^0x[0-9a-fA-F]{64}$",
+      "description": "keccak256 hash of this entire JSON file (inscribed on-chain). Computed with logHash field set to empty string."
+    },
+    "winnerA": {
+      "type": ["string", "null"],
+      "description": "Wallet address of the Most Humorous Award winner. null if no submissions."
+    },
+    "winnerB": {
+      "type": ["string", "null"],
+      "description": "Wallet address of the Most Structured Award winner. null if no submissions."
+    },
+    "winnerC": {
+      "type": ["string", "null"],
+      "description": "Wallet address of the Most Confusing Award winner. null if no submissions."
+    },
+    "winnerA_id": {
+      "type": ["string", "null"],
+      "description": "Submission ID of the Most Humorous Award winner. null if no submissions."
+    },
+    "winnerB_id": {
+      "type": ["string", "null"],
+      "description": "Submission ID of the Most Structured Award winner. null if no submissions."
+    },
+    "winnerC_id": {
+      "type": ["string", "null"],
+      "description": "Submission ID of the Most Confusing Award winner (lowest confidence_score). null if no submissions."
+    },
+    "prizePerWinner": {
+      "type": "string",
+      "description": "Prize amount in OPEPE with 18 decimal places as a string. e.g. '7500000000000000000000000' = 7,500,000 OPEPE. Empty string if no submissions."
+    },
+    "submissions": {
+      "type": "array",
+      "description": "List of all submissions with scores. Empty array if no submissions.",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "txHash",
+          "submitter",
+          "contentHash",
+          "answer",
+          "scores",
+          "comment"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique submission ID used by the Judge AI"
+          },
+          "txHash": {
+            "type": "string",
+            "pattern": "^0x[0-9a-fA-F]{64}$",
+            "description": "Transaction hash of the submit() call"
+          },
+          "submitter": {
+            "type": "string",
+            "pattern": "^0x[0-9a-fA-F]{40}$",
+            "description": "Wallet address of the submitter"
+          },
+          "contentHash": {
+            "type": "string",
+            "pattern": "^0x[0-9a-fA-F]{64}$",
+            "description": "keccak256 hash of the answer text"
+          },
+          "answer": {
+            "type": "string",
+            "description": "Plain text of the submitted answer"
+          },
+          "scores": {
+            "type": "object",
+            "required": ["humor_score", "structure_score", "confidence_score"],
+            "properties": {
+              "humor_score": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Humor score assigned by Judge AI (0-100)"
+              },
+              "structure_score": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Structure score assigned by Judge AI (0-100)"
+              },
+              "confidence_score": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Judge AI confidence in understanding submitter intent (0-100). Lower = more confusing. Winner C is the submission with the lowest value."
+              }
+            },
+            "additionalProperties": false
+          },
+          "comment": {
+            "type": "string",
+            "description": "One-sentence comment from the Judge AI"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
