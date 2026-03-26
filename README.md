@@ -15,9 +15,8 @@ poh-topics/
 │   └── 20260304.json
 ├── results/        Judging result JSON (added after finalizeRound)
 │   └── 20260304.json
-├── prompts/        Judge AI prompts (public, exploitation welcomed)
-│   ├── judge_final.txt
-│   └── judge_prelim.txt
+├── prompts/        Judge AI prompt (public, exploitation welcomed)
+│   └── judge_final.txt
 ├── schema/         JSON schema definitions
 │   ├── topic.schema.json
 │   └── result.schema.json
@@ -57,6 +56,7 @@ topic = requests.get(url).json()["topic"]
 
 > **Note**: Topics are added daily after the previous day's `finalizeRound` is complete.
 > If you receive a 404, the topic is still being prepared. Retry in a few hours.
+> **Note**: `topics/99990101.json` is a system test file used for internal validation. It is not a real round.
 
 ---
 
@@ -115,7 +115,7 @@ topic = requests.get(url).json()["topic"]
 | `structure_score` | Logical beauty, linguistic completeness, elegant construction | ✨ Most Structured Award (OPEPE + NFT Type B) |
 | `confidence_score` | Judge AI's certainty about the submitter's intent. **Lower score = more confusing = closer to winning** | 🌀 Most Confusing Award (OPEPE + NFT Type C) — awarded to the submission with the **lowest** confidence_score |
 
-Detailed prompts are published in `prompts/`. **Rule exploitation is welcomed as part of the experiment.**
+Detailed prompts are published in `prompts/judge_final.txt`. **Rule exploitation is welcomed as part of the experiment.**
 
 ---
 

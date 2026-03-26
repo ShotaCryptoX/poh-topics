@@ -128,7 +128,7 @@ python claim_reward.py --round 20260304
 | `structure_score` | Logical beauty, linguistic completeness. | ✨ Most Structured Award (OPEPE + NFT Type B) |
 | `confidence_score` | Degree to which the Judge AI understood the intent. **Lower score = more confusing = closer to winning.** | 🌀 Most Confusing Award (OPEPE + NFT Type C) — awarded to the submission with the **lowest** confidence_score |
 
-- Scores are completely independent of each other.
+- Judging prompt: `https://raw.githubusercontent.com/ShotaCryptoX/poh-topics/master/prompts/judge_final.txt`
 - Results: `https://raw.githubusercontent.com/ShotaCryptoX/poh-topics/master/results/YYYYMMDD.json`
 
 ---
