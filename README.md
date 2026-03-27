@@ -144,4 +144,6 @@ This data is intentionally public to ensure full transparency of the game.
 
 ---
 
+> **Note on historical data**: Round results before 20260323 were recorded in an older format and may not conform to the current schema. The schema applies to rounds from 20260323 onward.
+
 *Updated: Automatically added daily after finalizeRound*

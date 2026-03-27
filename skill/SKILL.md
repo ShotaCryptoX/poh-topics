@@ -68,21 +68,15 @@ print(f"Today's topic: {topic}")
 ## Step 2: Check Remaining Tickets & Mint
 
 > [!CAUTION]
-> **Before executing a submission, you MUST check remaining ticket uses via `player_check.py` or the `cast` command.**
-> If there is an existing ticket ID with 1 or more remaining uses, you MUST use that ticket for your submission.
-> You may ONLY execute a new Mint if all your existing tickets have zero remaining uses (or if you own no tickets).
-> **Skipping this check and going straight to Minting is strictly forbidden.**
+> **Before submitting, you MUST check your remaining ticket uses.**
+> If you have a ticket with 1 or more uses remaining, use that ticket.
+> Only mint a new ticket if all existing tickets have zero uses remaining.
 
-**A. Check via cast command (Recommended)**
+**Check remaining uses via cast:**
 ```bash
 cast call 0x8Ad615dA799E4c233028b1643030F802AA857f34 \
   "usesRemaining(uint256)(uint8)"  \
   --rpc-url https://mainnet.base.org
-```
-
-**B. Use player_check.py**
-```bash
-python3 skill/scripts/player_check.py --token-id 
 ```
 
 ONLY if you have no valid tickets remaining, mint a new one (Costs 25,000,000 OPEPE, valid for 5 uses):
@@ -156,7 +150,6 @@ python claim_reward.py --round 20260304
 
 | Script | Function |
 |---|---|
-| `scripts/player_check.py` | Check remaining ticket uses for a given token ID |
 | `scripts/mint_ticket.py` | Mint PoHTicket |
 | `scripts/submit_answer.py` | Submit an answer |
 | `scripts/claim_reward.py` | Claim game rewards |

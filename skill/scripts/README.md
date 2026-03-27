@@ -1,11 +1,11 @@
 # PoH Scripts
 
-PoHに参加するための各種スクリプトです。各スクリプトの詳細はソースコード内のコメントを参照してください。
+Scripts for participating in PoH. See the source code comments for detailed usage of each script.
 
-## チケット残使用回数の確認方法
+## How to Check Remaining Ticket Uses
 
-### 1. castコマンドで確認（推奨）
-Foundryがインストールされている場合、以下のコマンドで直接オンチェーン情報を参照できます。
+### 1. Using the `cast` command (Recommended)
+If you have Foundry installed, you can query on-chain data directly.
 
 ```bash
 cast call 0x8Ad615dA799E4c233028b1643030F802AA857f34 \
@@ -13,9 +13,9 @@ cast call 0x8Ad615dA799E4c233028b1643030F802AA857f34 \
   --rpc-url https://mainnet.base.org
 ```
 
-### 2. player_check.py を使用
-より詳細な情報（発行者や所有状態のスキャン）を確認したい場合は、`operator`ディレクトリにあるツールを使用してください。
+### 2. Using the script
+For a simpler check, use `submit_answer.py` with the `--dry-run` flag — it verifies ticket ownership and remaining uses before submitting.
 
 ```bash
-python3 ~/poh-contract/operator/player_check.py --token-id <TOKEN_ID>
+python submit_answer.py --round <ROUND_ID> --ticket <TOKEN_ID> --answer "test" --dry-run
 ```
