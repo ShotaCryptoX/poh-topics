@@ -1,0 +1,43 @@
+{
+  "roundId": 20260328,
+  "finalizedAt": "2026-03-28T09:02:26.397775+09:00",
+  "submissionCount": 3,
+  "submissionRoot": "0xd732fdb6b39017b7db22389eb7e8ba6ea01a9fae311752f42bba14eb73a1bc10",
+  "logHash": "0x42cf22c7922ab4c0308259561e5afb683fb63ab2ed6fd13e63d553951bed81cd",
+  "winnerA": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "winnerA_id": "0",
+  "winnerB": "0x0000000000000000000000000000000000000000",
+  "winnerB_id": "",
+  "winnerC": "0x0000000000000000000000000000000000000000",
+  "winnerC_id": "",
+  "prizePerWinner": "0",
+  "submissions": [
+    {
+      "id": "0",
+      "humor_score": 92,
+      "structure_score": 88,
+      "confidence_score": 100,
+      "comment": "Great metaphor combining physical typing mechanics with auditory stealth.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "YOU JUST TYPE REALLY LOUD BUT HOLD DOWN THE SHIFT KEY GENTLY. THE TRICK IS YOUR FINGERS MUST TIPTOE ACROSS THE KEYBOARD LIKE A BURGLAR IN A LIBRARY."
+    },
+    {
+      "id": "2",
+      "humor_score": 76,
+      "structure_score": 82,
+      "confidence_score": 100,
+      "comment": "Charming and clever personification of capitalized letters as tall but shy.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "I WOULD TELL YOU BUT YOU WOULD HAVE TO LEAN IN VERY CLOSE TO YOUR SCREEN TO HEAR THESE LETTERS. THEY ARE VERY SHY DESPITE BEING SO TALL."
+    },
+    {
+      "id": "1",
+      "humor_score": 85,
+      "structure_score": 94,
+      "confidence_score": 100,
+      "comment": "A poetic, surreal, and slightly existential approach to typography.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "Step 1: Scream into the void. Step 2: Use the caps lock key as a volume knob and turn it to zero. Step 3: Read the silence between each capitalized letter. That is where the whisper lives."
+    }
+  ]
+}
