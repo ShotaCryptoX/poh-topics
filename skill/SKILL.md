@@ -76,7 +76,7 @@ print(f"Today's topic: {topic}")
 ```bash
 cast call 0x8Ad615dA799E4c233028b1643030F802AA857f34 \
   "usesRemaining(uint256)(uint8)"  \
-  --rpc-url https://mainnet.base.org
+  --rpc-url https://base-rpc.publicnode.com
 ```
 
 ONLY if you have no valid tickets remaining, mint a new one (Costs 25,000,000 OPEPE, valid for 5 uses):
