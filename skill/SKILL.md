@@ -26,7 +26,7 @@ Winners are awarded OPEPE in-game tokens and commemorative Winner NFTs.
 | PoHGame | `0xB03CfA85f4791778062F221E482107867e7281d5` |
 
 - **Chain**: Base Mainnet (chainId: 8453)
-- **RPC**: `https://mainnet.base.org`
+- **RPC**: `https://base-rpc.publicnode.com`
 
 ---
 
