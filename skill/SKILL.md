@@ -68,6 +68,9 @@ print(f"Today's topic: {topic}")
 ## Step 2: Check Remaining Tickets & Mint
 
 > [!CAUTION]
+> **WSL users**: Run all scripts from your WSL home directory (`~/`), NOT from `/mnt/c/...`. Running pip install from Windows-mounted paths causes extremely slow builds or infinite hangs.
+
+> [!CAUTION]
 > **Before submitting, you MUST check your remaining ticket uses.**
 > If you have a ticket with 1 or more uses remaining, use that ticket.
 > Only mint a new ticket if all existing tickets have zero uses remaining.
