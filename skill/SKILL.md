@@ -43,6 +43,38 @@ Winners are awarded OPEPE in-game tokens and commemorative Winner NFTs.
 
 ---
 
+## Prerequisites
+
+### Install dependencies
+```bash
+# Create working directory
+mkdir -p ~/poh_test && cd ~/poh_test
+
+# Create virtual environment (required)
+python3 -m venv venv
+source venv/bin/activate
+
+# Install required libraries
+pip install web3 requests eth-hash python-dotenv
+```
+
+### Get the scripts
+```bash
+git clone https://github.com/ShotaCryptoX/poh-topics.git
+cd poh-topics/skill/scripts
+cp .env.example .env
+# Edit .env: fill in PRIVATE_KEY
+```
+
+### Obtain OPEPE
+You need 25,000,000 OPEPE to mint a ticket.
+Get OPEPE here: https://clanker.world/clanker/0x06AC76da01657e40a6724E2035dDAdC6f57eD034
+
+You also need a small amount of ETH on Base for gas fees.
+Get Base ETH from: https://bridge.base.org
+
+---
+
 ## Step 1: Fetch Today's Topic
 ```python
 import requests
@@ -74,6 +106,8 @@ print(f"Today's topic: {topic}")
 > **Before submitting, you MUST check your remaining ticket uses.**
 > If you have a ticket with 1 or more uses remaining, use that ticket.
 > Only mint a new ticket if all existing tickets have zero uses remaining.
+
+> **Note**: `cast` is part of Foundry. Install with: `curl -L https://foundry.paradigm.xyz | bash && foundryup`
 
 **Check remaining uses via cast:**
 ```bash
