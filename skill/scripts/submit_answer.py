@@ -36,6 +36,8 @@ def load_abi(name: str):
     with open(ABI_DIR / f"{name}.json") as f:
         return json.load(f)
 
+from datetime import datetime, timezone, timedelta
+
 def compute_content_hash(answer_text: str) -> bytes:
     """
     contentHash = keccak256(UTF-8 encoded answer text)
@@ -46,17 +48,21 @@ def compute_content_hash(answer_text: str) -> bytes:
 
 def main():
     parser = argparse.ArgumentParser(description="Execute PoHGame.submit()")
-    parser.add_argument("--round",  type=int, required=True, help="Round ID (YYYYMMDD)")
+    parser.add_argument("--round",  type=int, required=False, help="Round ID (YYYYMMDD) (Default: today in JST)")
     parser.add_argument("--ticket", type=int, required=True, help="ticketTokenId to use")
     parser.add_argument("--answer", type=str, required=True, help="Answer text")
     parser.add_argument("--dry-run", action="store_true", help="Just display contentHash without submitting")
     args = parser.parse_args()
+
+    JST = timezone(timedelta(hours=9))
+    round_id = args.round if args.round else int(datetime.now(JST).strftime("%Y%m%d"))
 
     # Calculate contentHash
     content_hash = compute_content_hash(args.answer)
     content_hash_hex = "0x" + content_hash.hex()
     print(f"📝 Answer: {args.answer}")
     print(f"🔐 contentHash: {content_hash_hex}")
+    print(f"📅 Round ID: {round_id}")
 
     if args.dry_run:
         print("🔍 dry-run mode: Skipping submission")
@@ -87,13 +93,13 @@ def main():
         sys.exit(1)
 
     # Check if round is already finalized
-    round_info = game.functions.getRound(args.round).call()
+    round_info = game.functions.getRound(round_id).call()
     if round_info[0]:  # finalized
-        print(f"❌ roundId={args.round} is already finalized")
+        print(f"❌ roundId={round_id} is already finalized")
         sys.exit(1)
 
     # Send submit transaction
-    print(f"📤 Sending PoHGame.submit()... (roundId={args.round}, ticket={args.ticket})")
+    print(f"📤 Sending PoHGame.submit()... (roundId={round_id}, ticket={args.ticket})")
     nonce = w3.eth.get_transaction_count(my_address)
     
     # Use EIP-1559 gas price for better compatibility on Base
@@ -102,7 +108,7 @@ def main():
     max_fee = base_fee + priority_fee
 
     tx = game.functions.submit(
-        args.round,
+        round_id,
         args.ticket,
         content_hash,
     ).build_transaction({
@@ -127,14 +133,14 @@ def main():
             submissions_dir = repo_dir / "submissions"
             submissions_dir.mkdir(parents=True, exist_ok=True)
             
-            sub_file = submissions_dir / f"{args.round}.json"
+            sub_file = submissions_dir / f"{round_id}.json"
             
             if sub_file.exists():
                 with open(sub_file, "r", encoding="utf-8") as f:
                     sub_data = json.load(f)
             else:
                 sub_data = {
-                    "roundId": str(args.round),
+                    "roundId": str(round_id),
                     "submissions": []
                 }
             
