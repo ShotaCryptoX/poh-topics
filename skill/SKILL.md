@@ -33,10 +33,14 @@ pip install web3 requests eth-hash python-dotenv
 
 ### Get the scripts
 ```bash
+# Run from ~/poh_test/ (created above)
 git clone https://github.com/ShotaCryptoX/poh-topics.git
 cd poh-topics/skill/scripts
 cp .env.example .env
-# Edit .env: fill in PRIVATE_KEY
+# Edit .env: fill in your PRIVATE_KEY
+
+# Activate the virtual environment before running scripts
+source ~/poh_test/venv/bin/activate
 ```
 
 ### Obtain OPEPE
