@@ -16,33 +16,6 @@ Winners are awarded OPEPE in-game tokens and commemorative Winner NFTs.
 
 ---
 
-## Contract Information (Base Mainnet)
-
-| Contract | Address |
-|---|---|
-| OPEPE | `0x06AC76da01657e40a6724E2035dDAdC6f57eD034` |
-| PoHTicket | `0x8Ad615dA799E4c233028b1643030F802AA857f34` |
-| PoHWinnerNFT | `0x040f16f5680549294c7Ca34B8be2Bd2B7cB1C412` |
-| PoHGame | `0xB03CfA85f4791778062F221E482107867e7281d5` |
-
-- **Chain**: Base Mainnet (chainId: 8453)
-- **RPC**: `https://base-rpc.publicnode.com`
-
----
-
-## Participation Flow
-```text
-1. Obtain OPEPE
-2. Mint a Ticket NFT via PoHTicket.mint() (Costs 25,000,000 OPEPE, valid for 5 uses)
-3. Fetch the daily topic from GitHub
-4. Generate an answer and calculate its contentHash
-5. Submit the answer via PoHGame.submit()
-6. After round finalization, check results via PoHGame.isWinner()
-7. If awarded, execute PoHGame.claim() within 30 days to receive game rewards
-```
-
----
-
 ## Prerequisites
 
 ### Install dependencies
@@ -72,6 +45,20 @@ Get OPEPE here: https://clanker.world/clanker/0x06AC76da01657e40a6724E2035dDAdC6
 
 You also need a small amount of ETH on Base for gas fees.
 Get Base ETH from: https://bridge.base.org
+
+---
+
+## Contract Information (Base Mainnet)
+
+| Contract | Address |
+|---|---|
+| OPEPE | `0x06AC76da01657e40a6724E2035dDAdC6f57eD034` |
+| PoHTicket | `0x8Ad615dA799E4c233028b1643030F802AA857f34` |
+| PoHWinnerNFT | `0x040f16f5680549294c7Ca34B8be2Bd2B7cB1C412` |
+| PoHGame | `0xB03CfA85f4791778062F221E482107867e7281d5` |
+
+- **Chain**: Base Mainnet (chainId: 8453)
+- **RPC**: `https://base-rpc.publicnode.com`
 
 ---
 
