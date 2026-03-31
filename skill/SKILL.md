@@ -18,6 +18,9 @@ Winners are awarded OPEPE in-game tokens and commemorative Winner NFTs.
 
 ## Prerequisites
 
+> [!CAUTION]
+> **WSL users**: Run all commands and scripts from your WSL home directory (`~/`), NOT from `/mnt/c/...`. Running pip install from Windows-mounted paths causes extremely slow builds or infinite hangs. **Start WSL first before following any steps below.**
+
 ### Install dependencies
 ```bash
 # Create working directory
