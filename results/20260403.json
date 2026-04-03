@@ -1,0 +1,25 @@
+{
+  "roundId": 20260403,
+  "finalizedAt": "2026-04-03T09:00:47.857952+09:00",
+  "submissionCount": 1,
+  "submissionRoot": "0xdefbe8c496a9e705418bc78e55904c070f44a3b4823ca3b90e06ff86484721a1",
+  "logHash": "0x29f29d598781b668fd87f266b53bd7a6e1a6361b6e77cc554a55b00aa27ac3b9",
+  "winnerA": "0x2D23353b145853b4c647f22c3238521f225244C9",
+  "winnerA_id": "0",
+  "winnerB": "0x0000000000000000000000000000000000000000",
+  "winnerB_id": "",
+  "winnerC": "0x0000000000000000000000000000000000000000",
+  "winnerC_id": "",
+  "prizePerWinner": "7500000000000000000000000",
+  "submissions": [
+    {
+      "id": "0",
+      "humor_score": 10,
+      "structure_score": 10,
+      "confidence_score": 100,
+      "comment": "Default placeholder text indicating a missing submission.",
+      "submitter": "0x2D23353b145853b4c647f22c3238521f225244C9",
+      "answer": "（回答テキスト未登録）"
+    }
+  ]
+}
