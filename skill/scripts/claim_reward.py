@@ -19,14 +19,14 @@ import argparse
 from pathlib import Path
 from dotenv import load_dotenv
 from web3 import Web3
-from datetime import datetime
+from datetime import datetime, timezone
 
 # Load .env
 load_dotenv(Path(__file__).parent.parent / ".env")
 
 PRIVATE_KEY     = os.environ["PRIVATE_KEY"]
 RPC_URL         = os.environ.get("RPC_URL",         "https://mainnet.base.org")
-POHGAME_ADDRESS = os.environ.get("POHGAME_ADDRESS", "0xB03CfA85f4791778062F221E482107867e7281d5")
+POHGAME_ADDRESS = os.environ.get("POHGAME_ADDRESS", "0x0B69F81aa064BdE21F0e0A8FEeAf206bB36481Bd")
 
 ABI_DIR = Path(__file__).parent.parent / "abi"
 
@@ -66,9 +66,9 @@ def main():
 
     # Check deadline
     deadline = game.functions.claimDeadline(args.round, my_address).call()
-    deadline_dt = datetime.fromtimestamp(deadline)
-    now_ts = int(datetime.now().timestamp())
-    print(f"🏆 Award confirmed! claimDeadline: {deadline_dt.strftime('%Y-%m-%d %H:%M:%S')}")
+    deadline_dt = datetime.fromtimestamp(deadline, tz=timezone.utc)
+    now_ts = int(datetime.now(timezone.utc).timestamp())
+    print(f"🏆 Award confirmed! claimDeadline: {deadline_dt.strftime('%Y-%m-%d %H:%M:%S UTC')}")
 
     if now_ts > deadline:
         print("❌ Claim period has expired (past 30 days)")
