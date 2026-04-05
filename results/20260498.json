@@ -1,0 +1,25 @@
+{
+  "roundId": 20260498,
+  "finalizedAt": "2026-04-04T23:59:03.334124+00:00",
+  "submissionCount": 1,
+  "submissionRoot": "0x1f903e0e31b6859fbe8b1236ce0340cb9bc0552e878688e0718c3caccf9dbe50",
+  "logHash": "0xdec3061b92824dc7a3752ae2636e4f1b144ec445956abb0ff250ac27e570ace0",
+  "winnerA": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "winnerA_id": "0",
+  "winnerB": "0x0000000000000000000000000000000000000000",
+  "winnerB_id": "",
+  "winnerC": "0x0000000000000000000000000000000000000000",
+  "winnerC_id": "",
+  "prizePerWinner": "7500000000000000000000000",
+  "submissions": [
+    {
+      "id": "0",
+      "humor_score": 75,
+      "structure_score": 85,
+      "confidence_score": 100,
+      "comment": "Classic crypto dad joke with a solid pun on forks and therapy.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "Why did the blockchain go to therapy? Because it had too many unresolved forks."
+    }
+  ]
+}
