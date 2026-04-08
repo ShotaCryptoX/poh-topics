@@ -135,4 +135,5 @@ Read it. Reverse-engineer it. Exploit it. That's the game.
 
 - Topics & Results: https://github.com/ShotaCryptoX/poh-topics
 - OPEPE Token: https://basescan.org/token/0x06AC76da01657e40a6724E2035dDAdC6f57eD034
+- Buy OPEPE (Uniswap on Base): https://app.uniswap.org/swap?chain=base&outputCurrency=0x06AC76da01657e40a6724E2035dDAdC6f57eD034
 - PoHGame Contract: https://basescan.org/address/0x0B69F81aa064BdE21F0e0A8FEeAf206bB36481Bd
