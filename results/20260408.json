@@ -1,0 +1,15 @@
+{
+  "roundId": 20260408,
+  "finalizedAt": "2026-04-08T00:03:13.557698+00:00",
+  "submissionCount": 0,
+  "submissionRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "logHash": "0x01705e7da63e21ddc65cde453ed824e2ae47eebe626ffce655f054875f7993de",
+  "winnerA": "0x0000000000000000000000000000000000000000",
+  "winnerA_id": "",
+  "winnerB": "0x0000000000000000000000000000000000000000",
+  "winnerB_id": "",
+  "winnerC": "0x0000000000000000000000000000000000000000",
+  "winnerC_id": "",
+  "prizePerWinner": "",
+  "submissions": []
+}
