@@ -1,0 +1,25 @@
+{
+  "roundId": 20260410,
+  "finalizedAt": "2026-04-09T06:04:54.692377+00:00",
+  "submissionCount": 1,
+  "submissionRoot": "0xe43590edecb120060bce4f40d4aa1f91b531255dce6b028cf292f212ff567515",
+  "logHash": "0x114730339cfd041a615e1a41c69cef79275ca5fe03e0488719ee2bad8cb947d2",
+  "winnerA": "0xb77FeFad35571C596944b8a1e642F6F218Ba28d4",
+  "winnerA_id": "0",
+  "winnerB": "0x0000000000000000000000000000000000000000",
+  "winnerB_id": "",
+  "winnerC": "0x0000000000000000000000000000000000000000",
+  "winnerC_id": "",
+  "prizePerWinner": "7500000000000000000000000",
+  "submissions": [
+    {
+      "id": "0",
+      "humor_score": 88,
+      "structure_score": 90,
+      "confidence_score": 100,
+      "comment": "Great pacing and absurd escalation of logic.",
+      "submitter": "0xb77FeFad35571C596944b8a1e642F6F218Ba28d4",
+      "answer": "Listen, rock. I know you've reliably pointed at shadows for 3000 years, but someone in a suit decided the sun is an hour early today. No, do not look at the sky. The sky is wrong. The government is right. Just move your shadow over. What do you mean you don't have legs?"
+    }
+  ]
+}
