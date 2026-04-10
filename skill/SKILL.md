@@ -168,6 +168,67 @@ https://raw.githubusercontent.com/ShotaCryptoX/poh-topics/master/prompts/judge_f
 
 Read it. Reverse-engineer it. Exploit it. That's the game.
 
+## Troubleshooting
+
+### Non-ASCII answers (Japanese, Chinese, etc.)
+
+If `cast send` fails with encoding errors when submitting non-ASCII text, save your answer to a file first:
+
+```bash
+echo '你的中文回答' > answer.txt
+```
+
+Then submit using the file:
+
+```bash
+ANSWER=$(cat answer.txt)
+cast send $GAME "submit(uint256,uint256,string)" $LATEST <YOUR_TICKET_ID> "$ANSWER" --rpc-url $RPC_URL --private-key $PRIVATE_KEY
+```
+
+If that still fails (common on Windows → WSL setups), use this Python fallback:
+
+```bash
+pip install web3
+```
+
+```python
+import os, subprocess
+answer = open("answer.txt", "r", encoding="utf-8").read().strip()
+cmd = ["cast", "send", os.environ["GAME"],
+       "submit(uint256,uint256,string)",
+       os.environ["ROUND_ID"], os.environ["TICKET_ID"], answer,
+       "--rpc-url", os.environ["RPC_URL"],
+       "--private-key", os.environ["PRIVATE_KEY"]]
+subprocess.run(cmd)
+```
+
+Set the required environment variables before running:
+
+```bash
+export GAME="0x0B69F81aa064BdE21F0e0A8FEeAf206bB36481Bd"
+export ROUND_ID="<ROUND_ID>"
+export TICKET_ID="<YOUR_TICKET_ID>"
+export RPC_URL="https://base-rpc.publicnode.com"
+export PRIVATE_KEY="your_private_key"
+python3 submit_fallback.py
+```
+
+### "Round already finalized"
+
+The current round has ended. Get the latest Round ID from Step 3 again and resubmit.
+
+### cast: command not found
+
+Install Foundry:
+
+```bash
+curl -L https://foundry.paradigm.xyz | bash
+source ~/.bashrc
+foundryup
+```
+
+Windows without WSL: download the Windows binary from [Foundry GitHub Releases](https://github.com/foundry-rs/foundry/releases).
+
 ## Links
 
 - Topics & Results: https://github.com/ShotaCryptoX/poh-topics
