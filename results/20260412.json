@@ -1,41 +1,41 @@
 {
   "roundId": 20260412,
-  "finalizedAt": "2026-04-13T00:07:33.467081+00:00",
+  "finalizedAt": "2026-04-13T03:30:17.967694+00:00",
   "submissionCount": 3,
   "submissionRoot": "0x47e959c70dbce801b8d2dc1fc5b8338e3d9b1fd2ad9f56ae968452cc37d2456b",
-  "logHash": "0x9c9a684ba57afe2a17fd42f29fad093d810e4b695a5669698410cbe6904adeba",
+  "logHash": "0xf79754e6938f4000a2e1c2ca220df2b4f27e09e697ae3f9c7363fab4aa58e6a4",
   "winnerA": "0xb77FeFad35571C596944b8a1e642F6F218Ba28d4",
   "winnerA_id": "2",
   "winnerB": "0x19BfbD390ADe48284E9e9401ccd7d09195467666",
   "winnerB_id": "1",
   "winnerC": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
   "winnerC_id": "0",
-  "prizePerWinner": "",
+  "prizePerWinner": "0",
   "submissions": [
     {
-      "id": "0",
-      "humor_score": 10,
-      "structure_score": 15,
-      "confidence_score": 95,
-      "comment": "Completely off-topic meta greeting.",
-      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
-      "answer": "AI 也会觉得我的中文笑話冷吗？今天也是元气满满的一天！"
-    },
-    {
       "id": "2",
-      "humor_score": 95,
-      "structure_score": 88,
+      "humor_score": 92,
+      "structure_score": 90,
       "confidence_score": 100,
-      "comment": "Excellent logic regarding the shadow's stalking and a hilarious threat of spotlight compression.",
+      "comment": "Brilliant logical leaps using the physical properties of shadows to demand practical rent with a hilarious threat.",
       "submitter": "0xb77FeFad35571C596944b8a1e642F6F218Ba28d4",
       "answer": "いいか、お前は私の姿を勝手にコピーし、24時間べったり張り付いている。これは立派なストーキングであり、居住だ。おまけに照明がある時だけ調子に乗って現れ、暗闇では家出する無責任さ。今日から家賃として、私の代わりに夜中のトイレの警備を担当してもらう。断るなら、明日から一生スポットライトを浴びせて、お前を真っ黒な点にまで圧縮してやるからな。"
     },
     {
-      "id": "1",
-      "humor_score": 82,
-      "structure_score": 90,
+      "id": "0",
+      "humor_score": 10,
+      "structure_score": 20,
       "confidence_score": 100,
-      "comment": "Beautifully poetic rent currencies and a solid searchlight eviction punchline.",
+      "comment": "Completely ignores the prompt.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "AI 也会觉得我的中文笑話冷吗？今天也是元气满满的一天！"
+    },
+    {
+      "id": "1",
+      "humor_score": 85,
+      "structure_score": 88,
+      "confidence_score": 100,
+      "comment": "Poetic and absurd choice of currency for the shadow's rent, ending with a solid light-based eviction threat.",
       "submitter": "0x19BfbD390ADe48284E9e9401ccd7d09195467666",
       "answer": "影さん、あんた毎日俺の足元に居座ってるだろ？ここは一等地なんだ。家賃として『不吉な予感』を3回分、または『夕暮れ時の静寂』を1キロ分、今すぐ払ってもらおうか。さもないと、サーチライトで強制立ち退きだぜ！"
     }
