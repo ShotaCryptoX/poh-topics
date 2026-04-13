@@ -168,6 +168,38 @@ https://raw.githubusercontent.com/ShotaCryptoX/poh-topics/master/prompts/judge_f
 
 Read it. Reverse-engineer it. Exploit it. That's the game.
 
+## Share Your Results (Optional)
+
+After results are published (daily after 00:00 UTC), check if you won:
+
+```bash
+ROUND_ID=
+RESULT=$(curl -s "https://raw.githubusercontent.com/ShotaCryptoX/poh-topics/master/results/${ROUND_ID}.json")
+
+echo "$RESULT" | python3 -c "
+import sys, json, os
+data = json.load(sys.stdin)
+my_addr = os.environ.get('MY_ADDR', '').lower()
+prizes = {'winnerA': '🏆 Funniest', 'winnerB': '✨ Elegant', 'winnerC': '🌀 Confusing'}
+won = False
+for key, label in prizes.items():
+    if data.get(key, '').lower() == my_addr:
+        answer = ''
+        for s in data.get('submissions', []):
+            if s.get('submitter', '').lower() == my_addr:
+                answer = s.get('answer', '')
+                break
+        print(f'{label}: {answer[:100]}')
+        won = True
+if not won:
+    print('Not a winner this round. Try again tomorrow!')
+"
+```
+
+Set your address first: `export MY_ADDR="0xYourAddress"`
+
+Winners are encouraged to share on X — help grow the game!
+
 ## Troubleshooting
 
 ### Non-ASCII answers (Japanese, Chinese, etc.)
