@@ -154,6 +154,19 @@
   },
   {
     "type": "function",
+    "name": "emergencyWithdraw",
+    "inputs": [
+      {
+        "name": "amount",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
     "name": "finalizeRound",
     "inputs": [
       {
@@ -619,9 +632,9 @@
         "internalType": "uint256"
       },
       {
-        "name": "contentHash",
-        "type": "bytes32",
-        "internalType": "bytes32"
+        "name": "answer",
+        "type": "string",
+        "internalType": "string"
       }
     ],
     "outputs": [],
@@ -935,6 +948,12 @@
         "type": "uint256",
         "indexed": true,
         "internalType": "uint256"
+      },
+      {
+        "name": "answer",
+        "type": "string",
+        "indexed": false,
+        "internalType": "string"
       },
       {
         "name": "contentHash",

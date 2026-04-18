@@ -26,7 +26,7 @@ load_dotenv(Path(__file__).parent.parent / ".env")
 PRIVATE_KEY     = os.environ["PRIVATE_KEY"]
 RPC_URL         = os.environ.get("RPC_URL", "https://mainnet.base.org")
 OPEPE_ADDRESS   = os.environ.get("OPEPE_ADDRESS",   "0x06AC76da01657e40a6724E2035dDAdC6f57eD034")
-TICKET_ADDRESS  = os.environ.get("TICKET_ADDRESS",  "0x8Ad615dA799E4c233028b1643030F802AA857f34")
+TICKET_ADDRESS  = os.environ.get("TICKET_ADDRESS",  "0xF4b7f91d25Ab667E6535736C168f9B2Ccc944D76")
 
 # Load ABI
 ABI_DIR = Path(__file__).parent.parent / "abi"

@@ -8,7 +8,7 @@ Scripts for participating in PoH. See the source code comments for detailed usag
 If you have Foundry installed, you can query on-chain data directly.
 
 ```bash
-cast call 0x8Ad615dA799E4c233028b1643030F802AA857f34 \
+cast call 0xF4b7f91d25Ab667E6535736C168f9B2Ccc944D76 \
   "usesRemaining(uint256)(uint8)" <TOKEN_ID> \
   --rpc-url https://mainnet.base.org
 ```
