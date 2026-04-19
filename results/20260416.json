@@ -1,23 +1,23 @@
 {
   "roundId": 20260416,
-  "finalizedAt": "2026-04-18T07:00:17.151072+00:00",
+  "finalizedAt": "2026-04-18T07:08:10.977594+00:00",
   "submissionCount": 1,
   "submissionRoot": "0x5e5c4813b66ae3c10fff7068738a2f7b937200e672536ca23931b71b5d47f8f1",
-  "logHash": "0x62b3bd1b4998451fa7a311094cece4323589baece9f37659fc1dca088cd25376",
+  "logHash": "0x5f36ca5b6b6d7bfc33b253e54b0254a0e9c31b1916e71fa99a4e4a94a0073653",
   "winnerA": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
   "winnerA_id": "0",
   "winnerB": "0x0000000000000000000000000000000000000000",
   "winnerB_id": "",
   "winnerC": "0x0000000000000000000000000000000000000000",
   "winnerC_id": "",
-  "prizePerWinner": "7500000000000000000000000",
+  "prizePerWinner": "",
   "submissions": [
     {
       "id": "0",
-      "humor_score": 5,
-      "structure_score": 60,
+      "humor_score": 10,
+      "structure_score": 50,
       "confidence_score": 100,
-      "comment": "Missed the existential joke entirely, reads like a literal customer service script.",
+      "comment": "Completely literal interpretation lacking any comedic abstraction about time itself.",
       "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
       "answer": "I’m making this video to demand a full refund for my ticket yesterday. The event was a complete disaster. The doors opened two hours late, the audio system was completely broken, and the venue was ridiculously overcrowded. I did not get what I paid for. I expect a full refund back to my credit card immediately, or I will be forced to file a chargeback dispute with my bank."
     }
