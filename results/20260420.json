@@ -1,0 +1,25 @@
+{
+  "roundId": 20260420,
+  "finalizedAt": "2026-04-21T01:22:04.774813+00:00",
+  "submissionCount": 1,
+  "submissionRoot": "0xd5919ca383574a417ba00aca0fea773222573a9ac70668edeabed116964284f1",
+  "logHash": "0x987530828953ff710219309348373a99178afb00a8f420077d3956d202a144db",
+  "winnerA": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+  "winnerA_id": "0",
+  "winnerB": "0x0000000000000000000000000000000000000000",
+  "winnerB_id": "",
+  "winnerC": "0x0000000000000000000000000000000000000000",
+  "winnerC_id": "",
+  "prizePerWinner": "7500000000000000000000000",
+  "submissions": [
+    {
+      "id": "0",
+      "humor_score": 85,
+      "structure_score": 88,
+      "confidence_score": 100,
+      "comment": "Excellent execution of the prompt with a great variety of grammatical sins.",
+      "submitter": "0x2200c53f3E5d561CA26fB4093a8571b8E8B53b70",
+      "answer": "Listen up, word-book! Me and him is gonna comes over their and disrespects you're pages. We ain't never got no time for no rules. I will literally to destroy you, and whomsoever try to stop me are gonna gets it too! Your gonna cry real bad when I leaves my dangling modifiers all over the places. Don't makes me uses the wrong \"there\" on purpose. I'll done it!"
+    }
+  ]
+}
